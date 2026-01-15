@@ -1,0 +1,35 @@
+name: Code Quality
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r config/requirements-dev.txt
+    
+    - name: Format check with black
+      run: black --check src/ tests/
+    
+    - name: Import sorting with isort
+      run: isort --check-only src/ tests/
+    
+    - name: Type checking with mypy
+      run: mypy src/
+    
+    - name: Linting with pylint
+      run: pylint src/ tests/ --fail-under=8.0 || true
