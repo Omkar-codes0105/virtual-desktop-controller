@@ -1,0 +1,56 @@
+# Virtual environment
+venv/
+.venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# MediaPipe & ML models
+*.pth
+*.onnx
+*.pb
+models/
+weights/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+
+# Testing
+.pytest_cache/
+.tox/
+
+# Logs
+*.log
+logs/
