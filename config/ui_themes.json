@@ -1,0 +1,53 @@
+{
+  "themes": [
+    {
+      "id": "light",
+      "name": "Light Theme",
+      "colors": {
+        "background": "#FFFFFF",
+        "foreground": "#000000",
+        "primary": "#007AFF",
+        "secondary": "#5AC8FA",
+        "accent": "#FF9500",
+        "success": "#4CD964",
+        "error": "#FF3B30"
+      },
+      "font_size": "14px",
+      "opacity": 1.0
+    },
+    {
+      "id": "dark",
+      "name": "Dark Theme",
+      "colors": {
+        "background": "#1C1C1E",
+        "foreground": "#FFFFFF",
+        "primary": "#0A84FF",
+        "secondary": "#00B0FF",
+        "accent": "#FF9500",
+        "success": "#34C759",
+        "error": "#FF453A"
+      },
+      "font_size": "14px",
+      "opacity": 0.95
+    },
+    {
+      "id": "high_contrast",
+      "name": "High Contrast",
+      "colors": {
+        "background": "#000000",
+        "foreground": "#FFFFFF",
+        "primary": "#FFFF00",
+        "secondary": "#00FFFF",
+        "accent": "#FF00FF",
+        "success": "#00FF00",
+        "error": "#FF0000"
+      },
+      "font_size": "16px",
+      "opacity": 1.0
+    }
+  ],
+  "default_theme": "light",
+  "enable_animations": true,
+  "gaze_point_size": 10,
+  "gaze_trail_length": 30
+}
