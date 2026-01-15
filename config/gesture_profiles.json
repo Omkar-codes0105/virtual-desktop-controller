@@ -1,0 +1,48 @@
+{
+  "gestures": [
+    {
+      "id": "click",
+      "name": "Click",
+      "description": "Pinch gesture for clicking",
+      "enabled": true,
+      "sensitivity": 0.7
+    },
+    {
+      "id": "double_click",
+      "name": "Double Click",
+      "description": "Two rapid pinches",
+      "enabled": true,
+      "sensitivity": 0.7
+    },
+    {
+      "id": "swipe_left",
+      "name": "Swipe Left",
+      "description": "Hand swipe to the left",
+      "enabled": true,
+      "sensitivity": 0.6
+    },
+    {
+      "id": "swipe_right",
+      "name": "Swipe Right",
+      "description": "Hand swipe to the right",
+      "enabled": true,
+      "sensitivity": 0.6
+    },
+    {
+      "id": "open_palm",
+      "name": "Open Palm",
+      "description": "Open palm gesture",
+      "enabled": true,
+      "sensitivity": 0.8
+    },
+    {
+      "id": "peace_sign",
+      "name": "Peace Sign",
+      "description": "Two fingers up",
+      "enabled": false,
+      "sensitivity": 0.7
+    }
+  ],
+  "default_timeout_ms": 1000,
+  "min_confidence": 0.6
+}
