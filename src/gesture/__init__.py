@@ -1,4 +1,4 @@
 """Gesture recognition module."""
-from .recognizer import GestureRecognizer
+from .gesture_recognizer import GestureRecognizer
 
 __all__ = ['GestureRecognizer']

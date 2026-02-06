@@ -1,4 +1,4 @@
 """UI module."""
-from .interface import Interface
+from .main_window import MainWindow
 
-__all__ = ['Interface']
+__all__ = ['MainWindow']

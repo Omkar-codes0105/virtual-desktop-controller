@@ -1,0 +1,9 @@
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+pyqt5>=5.15.0
+pyautogui>=0.9.50
+numpy>=1.24.0
+autopy>=4.0.0; platform_system=='Linux' or platform_system=='Darwin' 
+# autopy might have issues on Windows python 3.9+, prefer pyautogui or other libs if possible. 
+# sticking to requirements.txt from plan, but will remove autopy for windows compatibility if needed later.
+requests

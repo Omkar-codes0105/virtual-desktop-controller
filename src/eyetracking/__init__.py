@@ -1,4 +1,4 @@
 """Eye tracking module."""
-from .tracker import EyeTracker
+from .eye_tracker import EyeTracker
 
 __all__ = ['EyeTracker']

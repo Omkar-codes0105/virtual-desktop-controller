@@ -1,11 +1,11 @@
 """Core module for Virtual Desktop Controller."""
 
-from .camera import CameraHandler
-from .configmanager import ConfigManager
-from .logger import Logger
+from .camera import Camera
+from .config_manager import ConfigManager
+from .logger import setup_logger
 
 __all__ = [
-    'CameraHandler',
+    'Camera',
     'ConfigManager',
-    'Logger'
+    'setup_logger'
 ]
