@@ -1,3 +1,15 @@
+#files to ignore
+00-README-How-To-Use.html
+DIPEX-Final-Proposal_00.docx
+GitHub Repository Structure & Collaboration Guide.pdf
+Role1-Gesture-Lead.html
+Role2-EyeTracking-Lead.html
+Role3-UI-Designer.html
+Role4-Performance-Lead.html
+Role5-QA-Documentation-Lead.html
+SDLC Action Summary.pdf
+SLDC Plan Updated.pdf
+
 # Virtual environment
 venv/
 .venv/
